@@ -18,18 +18,20 @@ body {
 .wrapper {
   background-color: var(--texts);
 }
+
 .box {
   margin: 5vw;
   margin-top: 0;
   margin-bottom: 0;
   background-color: var(--background);
   padding: 1vw;
+  height: 100vw;
+  box-shadow: black 1vw 1vw 1vw;
 }
-  display: flex;
-  justify-content: center;
-}
-
+/* HGROUP */
+/* #region */
 hgroup {
+  text-align: center;
 }
 
 hgroup h1 {
@@ -40,3 +42,4 @@ hgroup h2 {
 
 hgroup h3 {
 }
+/* #endregion */
